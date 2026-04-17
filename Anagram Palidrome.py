@@ -12,3 +12,6 @@ class Solution:
             if val&1==1:
                 is_odd+=1
         return is_odd<2
+obj=Solution()
+s=input()
+print(obj.canFormPalindrome(s))
